@@ -111,7 +111,7 @@ Set the default timezone:
 ```php
 // This sets the timezone so all dates are set properly.
 $csf = new LithiumDev\CSFParser\CSFParser($data);
-$csf->setTimeZone('America\Chicago');
+$csf->setTimeZone('America/Chicago');
 $results = $csf->parse();
 ```
 Chaining Methods:
