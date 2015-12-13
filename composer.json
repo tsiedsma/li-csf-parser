@@ -1,0 +1,22 @@
+{
+    "name": "lhdev/li-csf-parser",
+    "description": "PHP Class for parsing CSF csf.deny file into an array",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Troy Siedsma",
+            "email": "tsiedsma@lithiumhosting.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "nesbot/carbon": "~1.18"
+    },
+    "autoload": {
+        "psr-0": {
+            "LithiumDev\\CSFParser": "src/"
+        }
+    }
+}
